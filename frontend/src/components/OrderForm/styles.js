@@ -40,7 +40,7 @@ export const Input = styled.input`
   }
 `;
 
-export const Button = styled.div`
+export const Button = styled.button`
   width: 100%;
   height: 36px;
   border-radius: 999px;
@@ -63,4 +63,13 @@ export const Error = styled.div`
   color: red;
   font-size: 12px;
   margin-bottom: 20px;
+`;
+
+export const ServerErrorWrapper = styled.div`
+  margin-top: 20px;
+`;
+
+export const ServerError = styled.div`
+  color: red;
+  font-size: 12px;
 `;
