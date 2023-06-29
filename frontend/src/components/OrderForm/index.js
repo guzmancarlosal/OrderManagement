@@ -101,7 +101,7 @@ const OrderForm = ({ toast }) => {
           values,
           errors,
         }) => (
-          <S.Form autoComplete onSubmit={handleSubmit}>
+          <S.Form onSubmit={handleSubmit}>
             <S.FormField>
               <S.Label>Date:</S.Label>
               <DatePicker
